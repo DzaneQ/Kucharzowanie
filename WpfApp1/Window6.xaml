@@ -1,0 +1,20 @@
+﻿<Window x:Class="WpfApp1.Window6"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+       mc:Ignorable="d"
+        Title="Pomoc" Height="136" Width="476" FontFamily="Segoe Print" ResizeMode="CanMinimize">
+    <Window.Background>
+        <RadialGradientBrush>
+            <GradientStop Color="#FFFFDC00"/>
+            <GradientStop Color="#FF17FF00" Offset="1"/>
+        </RadialGradientBrush>
+    </Window.Background>
+    <Grid Margin="0,0,-6,-18">
+        <Button Content="Dziękuję" HorizontalAlignment="Left" Margin="350,62,0,0" Width="102" RenderTransformOrigin="0.441,-2.64" Click="Button_Click" Height="25" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Height="21" Margin="10,10,0,0" TextWrapping="Wrap" Text="Autor aplikacji, Patryk Szczęśniak, wydaje wyrazy uznania:" VerticalAlignment="Top" Width="450" Foreground="#FFBF5802"/>
+        <TextBlock HorizontalAlignment="Left" Height="21" Margin="10,36,0,0" TextWrapping="Wrap" Text="Ikona wykonana przez Chanut z www.flaticon.com" VerticalAlignment="Top" Width="450" Foreground="#FFBF5802" RenderTransformOrigin="0.5,2.27"/>
+    </Grid>
+</Window>

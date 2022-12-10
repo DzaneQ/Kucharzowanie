@@ -1,0 +1,19 @@
+﻿<Window x:Class="WpfApp1.Window3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Pomoc" Height="192" Width="476" FontFamily="Segoe Print" ResizeMode="CanMinimize">
+    <Window.Background>
+        <RadialGradientBrush>
+            <GradientStop Color="#FFAE00FF"/>
+            <GradientStop Color="#FF002EFF" Offset="1"/>
+        </RadialGradientBrush>
+    </Window.Background>
+    <Grid Margin="0,0,-6,-7">
+        <Button Content="Rozumiem" HorizontalAlignment="Left" Height="25" Margin="350,122,0,0" VerticalAlignment="Top" Width="102" RenderTransformOrigin="0.441,-2.64" Click="Button_Click"/>
+        <TextBox HorizontalAlignment="Left" Height="107" Margin="10,10,0,0" TextWrapping="Wrap" Text="Aby wybrać przepis, dwukrotnie kliknij w jego temat.&#xD;&#xA;Aby dodać nowy przepis, kliknij przycisk &quot;Dodaj przepis&quot;.&#xD;&#xA;Możesz przefiltrować listę przepisów, wpisując w wyszukiwarcę frazę tytułu lub tag oraz wybrać rodzaj posiłku, który cię interesuje." VerticalAlignment="Top" Width="456" Background="{x:Null}" IsReadOnly="True" BorderThickness="0" Foreground="#FFFFF300"/>
+    </Grid>
+</Window>
